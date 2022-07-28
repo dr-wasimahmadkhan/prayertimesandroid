@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "my-prayer-app",
+    "slug": "snack-fd4afb07-8d68-43ca-897f-3f666c949105",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.prayer.app",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyCfo6j992M7e4DZDMfn8PSwxmEhk8-Z5Fk" }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "userInterfaceStyle": "automatic"
+  }
+}
